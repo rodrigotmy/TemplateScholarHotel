@@ -4,6 +4,9 @@
   background-color: $color-primario;
   padding-top: 60px;
   padding-bottom: 60px;
+  
+  position: relative;
+  margin-top: 100px;
 
   &__contnr-into {
     @include contnr-center;
@@ -54,4 +57,39 @@
     font-family: $font1;
     color: $color-grey;
   }
+
+
+  
+  &__ranking {
+    position: absolute;
+    top: -60px;
+    margin-left: 19%;
+    border-radius: 2px;
+    background-color: $color-white;
+    box-shadow: 0 4px 6px $color-grey;
+    height: 120px;
+    width: 830px;
+    display: flex;
+  }
+
+  &__ranking-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $font1;
+    
+    &-name {
+      color: $color-black;
+      font-size: 1.5em;
+    }
+    &-descrip {
+      color: $color-grey;
+      font-size: .8em;
+    }
+  }
+
+
+
 }
