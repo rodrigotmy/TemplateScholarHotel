@@ -23,3 +23,8 @@
   background-position: center;
   background-size: 40%;
 }
+
+@mixin cover-image {
+  object-fit: cover;
+  object-position: center;
+}

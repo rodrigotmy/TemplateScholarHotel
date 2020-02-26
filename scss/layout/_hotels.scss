@@ -1,0 +1,85 @@
+.hotels {
+  @include max-width-page;
+  height: auto;
+
+  &__contnr-into {
+    @include max-width-page;
+    
+    @include contnr-center;
+    height: inherit;
+  }
+
+  &__name-section {
+    @extend .works__name-section;
+  }
+
+  &__hotel-item {
+    // border: 1px solid purple;
+    width: 100%;
+    height: auto;
+    font-family: $font1;
+    padding-bottom: 25px;
+  }
+  &__hotel-image {
+    background-color: lightgray;
+    color: #FFF;
+    cursor: pointer;
+
+    width: 100%;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 2px;
+
+    @include cover-image;
+  }
+  &__hotel-stars {
+    background-color: yellow;
+    border-radius: 10px;
+    width: 65px;
+    height: 20px;
+    float: left;
+    margin-left: 20%;
+    margin-right: 6px;
+  }
+  &__hotel-reviews {
+    display: inline-block;
+    font-size: .8em;
+    margin-bottom: 5px;
+    color: $color-grey;
+  }
+  &__hotel-name {
+    font-size: .90em;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  &__hotel-location {
+    font-size: .85em;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: $color-grey;
+  }
+
+  &__hotel-price {
+    font-size: 1.5em;
+    text-align: center;
+    color: $color-secundario;
+  }
+
+  &__button-view_all {
+    @include contnr-center;
+    max-width: 200px;
+    margin-top: 50px;
+  }
+
+}
+
+.line {
+  width: 840px;
+  border-bottom: 1px solid $color-primario;
+  @include contnr-center;
+  margin-top: 100px;
+}

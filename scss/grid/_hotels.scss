@@ -1,0 +1,38 @@
+.hotels {
+  &__contnr-into {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: minmax(150px, 1fr) auto auto;
+    grid-gap: 0 10px;
+  }
+
+  &__name-section {
+    grid-column: 1 / span 5;
+    grid-row: 1 / span 1;
+  }
+
+  &__hotel-item:nth-of-type(1) {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+  &__hotel-item:nth-of-type(2) {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+  &__hotel-item:nth-of-type(3) {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+  }
+  &__hotel-item:nth-of-type(4) {
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 1;
+  }
+  &__hotel-item:nth-of-type(5) {
+    grid-column: 5 / span 1;
+    grid-row: 2 / span 1;
+  }
+  &__button-view_all {
+    grid-column: 1 / span 5;
+    grid-row: 3 / span 1;
+  }
+}
