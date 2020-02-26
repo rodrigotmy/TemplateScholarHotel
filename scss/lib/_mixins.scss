@@ -1,0 +1,25 @@
+@mixin max-width-page {
+  width: 100%;
+}
+
+@mixin max-width-contnr {
+  max-width: 1024px;
+  width: 100%;
+}
+
+@mixin content-center-fb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin contnr-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin button-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+}

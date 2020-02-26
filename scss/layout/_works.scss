@@ -1,0 +1,57 @@
+.works {
+  @include max-width-page;
+  height: auto;
+  background-color: $color-primario;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__contnr-into {
+    @include contnr-center;
+    max-width: 850px;
+    width: 100%;
+    height: 450px;
+    background-color: $color-primario;
+  }
+
+  &__name-section {
+    @include content-center-fb;
+    flex-direction: column;
+    font-family: $font1;
+  }
+
+  &__box-item {
+    //agregar max-with
+    width: 100%;
+    height: 300px;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 4px;
+    background-color: $color-white;
+  }
+
+  &__image {
+    width: 120px;
+    height: 110px;
+    border: 1px solid green;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    @include contnr-center;
+    @include content-center-fb;
+  }
+
+  &__item-title {
+    text-align: center;
+    font-size: 1em;
+    font-family: $font1;
+    margin-bottom: 10px;
+    color: $color-black;
+  }
+
+  &__item-descrip {
+    text-align: center;
+    font-size: .85em;
+    font-family: $font1;
+    color: $color-grey;
+  }
+}
