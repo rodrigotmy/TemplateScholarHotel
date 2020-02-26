@@ -1,0 +1,11 @@
+.button-base {
+  max-width: 150px;
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 2px;
+  background-color: $color-secundario;
+  color: $color-white;
+  cursor: pointer;
+  @include content-center-fb;
+}
