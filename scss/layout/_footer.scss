@@ -1,0 +1,56 @@
+.footer {
+  // border: 1px solid grey;
+  height: 220px;
+  @include max-width-page;
+  
+  &__contnr-into {
+    // @include max-width-page;
+    width: 100%;
+    height: inherit;
+    font-family: $font1;
+    // border: 1px solid grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  &__logo-web {
+    width: 110px;
+    height: 45px;
+    background-color: lightgray;
+    // margin-left: 50px;
+    @include contnr-center;
+  }
+  &__copyright {
+    font-size: .75em;
+    @include contnr-center;
+    line-height: 1.5em;
+  }
+
+  &__more-info {
+    list-style: none;
+    font-size: .8em;
+    @include contnr-center;
+
+    &-item {
+      margin-bottom: 6px;
+    }
+  }
+
+  &__menu {
+    @extend .footer__more-info;
+
+    &-item {
+      @extend .footer__more-info-item;
+    }
+  }
+
+  &__icons-social {
+    width: 125px;
+    height: 25px;
+    background-color: lightgray;
+    @include contnr-center;
+
+  }
+
+
+}

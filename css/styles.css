@@ -171,6 +171,14 @@
   -ms-grid-row-span: 1;
   grid-row: 2 / span 1; }
 
+.footer__contnr-into {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+  grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: auto;
+  grid-template-rows: auto; }
+
 .works {
   width: 100%;
   height: auto;
@@ -435,3 +443,37 @@
   .newsletter__bttn-subscribe {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0; }
+
+.footer {
+  height: 220px;
+  width: 100%; }
+  .footer__contnr-into {
+    width: 100%;
+    height: inherit;
+    font-family: "Segoe UI", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  .footer__logo-web {
+    width: 110px;
+    height: 45px;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto; }
+  .footer__copyright {
+    font-size: .75em;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em; }
+  .footer__more-info, .footer__menu {
+    list-style: none;
+    font-size: .8em;
+    margin-left: auto;
+    margin-right: auto; }
+    .footer__more-info-item, .footer__menu-item {
+      margin-bottom: 6px; }
+  .footer__icons-social {
+    width: 125px;
+    height: 25px;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto; }
