@@ -1,0 +1,100 @@
+.hero {
+  @include max-width-page;
+  height: 550px;
+  border: 1px solid purple;
+  background-image: url('../images/image-hero.jpg');
+  background-size: cover;
+  background-position: bottom;
+
+  &__header {
+    // border: 1px solid green;
+    width: 1200px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    @include contnr-center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-logo {
+      width: 120px;
+      height: 50px;
+      background-color: $color-white;
+      border-radius: 4px;
+    }
+
+    &-menu {
+      list-style: none;
+      &-item {
+        display: inline-block;
+        margin-right: 24px;
+        font-size: .8em;
+        font-family: $font1;
+        font-weight: 600;
+        color: $color-white;
+      }
+    }
+
+    .active {
+      color: $color-secundario;
+    }
+  }
+
+
+
+  &__title-welcome {
+    font-family: $font1;
+    text-align: center;
+    font-size: 1.5em;
+    color: $color-white;
+    margin-bottom: 30px;
+  }
+
+  &__form-search-hotel {
+    @include contnr-center;
+    display: flex;
+    width: 830px;
+    height: auto;
+    box-shadow: 0 4px 6px lightgray;
+  }
+  &__input-select {
+    font-size: .75em;
+    font-weight: 600;
+    color: $color-secundario;
+
+    option {
+      color: #000;
+    }
+  }
+
+  .active {
+    color: $color-secundario;
+  }
+
+
+
+  &__input-select:nth-of-type(1) {
+    max-width: 220px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+  &__input-select:nth-of-type(2) {
+    max-width: 165px;
+  }
+  &__input-select:nth-of-type(3) {
+    max-width: 165px;
+  }
+  &__input-select:nth-of-type(4) {
+    max-width: 80px;
+  }
+
+
+  &__button-search {
+    max-width: 200px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+}
