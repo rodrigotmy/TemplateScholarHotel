@@ -22,17 +22,22 @@
   }
   &__copyright {
     font-size: .75em;
-    @include contnr-center;
     line-height: 1.5em;
+    color: $color-grey;
+    font-weight: 600;
+    @include contnr-center;
+
   }
 
   &__more-info {
-    list-style: none;
     font-size: .8em;
+    list-style: none;
+    color: $color-grey;
     @include contnr-center;
 
     &-item {
       margin-bottom: 6px;
+      font-weight: 600;
     }
   }
 
@@ -49,7 +54,6 @@
     height: 25px;
     background-color: lightgray;
     @include contnr-center;
-
   }
 
 

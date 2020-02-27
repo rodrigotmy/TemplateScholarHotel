@@ -439,10 +439,12 @@
     display: flex; }
   .newsletter__box-email {
     border-top-right-radius: 0;
-    border-bottom-right-radius: 0; }
+    border-bottom-right-radius: 0;
+    font-family: "Segoe UI", sans-serif; }
   .newsletter__bttn-subscribe {
     border-top-left-radius: 0;
-    border-bottom-left-radius: 0; }
+    border-bottom-left-radius: 0;
+    font-family: "Segoe UI", sans-serif; }
 
 .footer {
   height: 220px;
@@ -461,16 +463,20 @@
     margin-right: auto; }
   .footer__copyright {
     font-size: .75em;
+    line-height: 1.5em;
+    color: #707070;
+    font-weight: 600;
     margin-left: auto;
-    margin-right: auto;
-    line-height: 1.5em; }
+    margin-right: auto; }
   .footer__more-info, .footer__menu {
-    list-style: none;
     font-size: .8em;
+    list-style: none;
+    color: #707070;
     margin-left: auto;
     margin-right: auto; }
     .footer__more-info-item, .footer__menu-item {
-      margin-bottom: 6px; }
+      margin-bottom: 6px;
+      font-weight: 600; }
   .footer__icons-social {
     width: 125px;
     height: 25px;
