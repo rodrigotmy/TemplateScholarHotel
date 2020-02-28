@@ -4,9 +4,7 @@
   background-color: $color-primario;
   padding-top: 60px;
   padding-bottom: 60px;
-  
   position: relative;
-  // margin-top: 100px;
 
   &__contnr-into {
     @include contnr-center;
@@ -22,6 +20,14 @@
     font-family: $font1;
   }
 
+  &__section-title {
+    color: $color-black;
+  }
+
+  &__section-descrip {
+    color: $color-grey;
+  }
+
   &__box-item {
     //agregar max-with
     width: 100%;
@@ -34,13 +40,19 @@
   }
 
   &__image {
-    width: 120px;
+    width: 110px;
     height: 110px;
-    border: 1px solid green;
+    // border: 1px solid green;
     border-radius: 3px;
     margin-bottom: 20px;
     @include contnr-center;
     @include content-center-fb;
+
+    img {
+      width: 110%;
+      height: 110%;
+      object-fit: cover;
+    }
   }
 
   &__item-title {

@@ -10,14 +10,14 @@
 
   <div class="hero">
     <div class="hero__header">
-      <div class="hero__header-logo"></div>
+      <img src="images/logo-web-600px.svg" alt="" class="hero__header-logo">
       <ul class="hero__header-menu">
-        <li class="hero__header-menu-item active">HOME</li>
-        <li class="hero__header-menu-item">HOTELS</li>
-        <li class="hero__header-menu-item">BLOG</li>
-        <li class="hero__header-menu-item">ABOUT US</li>
-        <li class="hero__header-menu-item">CONTACT US</li>
-        <li class="hero__header-menu-item">LOGIN OR REGISTER</li>
+        <li class="hero__header-menu-item"> <a href="#" class="hero__header-link active">HOME</a> </li>
+        <li class="hero__header-menu-item"> <a href="#" class="hero__header-link">HOTELS</a> </li>
+        <li class="hero__header-menu-item"> <a href="#" class="hero__header-link">BLOG</a> </li>
+        <li class="hero__header-menu-item"> <a href="#" class="hero__header-link">ABOUT US</a> </li>
+        <li class="hero__header-menu-item"> <a href="#" class="hero__header-link">CONTACT US</a> </li>
+        <li class="hero__header-menu-item"> <a href="#" class="hero__header-link">LOGIN OR REGISTER</a> </li>
       </ul>
     </div>
     <h1 class="hero__title-welcome">
@@ -25,25 +25,25 @@
       IN 190+ CONTRIES
     </h1>
     <form class="hero__form-search-hotel">
-      <select class="hero__input-select  input-base">
+      <select class="hero__input-select input-base">
         <option value="0">LOCATION</option>
         <option value="1">Mexico</option>
         <option value="2">USA</option>
         <option value="3">Canada</option>
       </select>
-      <select class="hero__input-select  input-base">
+      <select class="hero__input-select input-base">
         <option value="0">CHECK IN</option>
         <option value="1">Mexico</option>
         <option value="2">USA</option>
         <option value="3">Canada</option>
       </select>
-      <select class="hero__input-select  input-base">
+      <select class="hero__input-select input-base">
         <option value="0">CHECK OUT</option>
         <option value="1">Mexico</option>
         <option value="2">USA</option>
         <option value="3">Canada</option>
       </select>
-      <select class="hero__input-select  input-base">
+      <select class="hero__input-select input-base">
         <option value="0">GUEST</option>
         <option value="1">Mexico</option>
         <option value="2">USA</option>
@@ -80,20 +80,27 @@
         </p>
       </div>
       <div class="works__box-item">
-        <div class="works__image">Image</div>
+        <div class="works__image">
+          <img src="images/calendario-300px.png" alt="">
+        </div>
+
         <h2 class="works__item-title">SELECT DAYS <br> CHECK IN & CHECK OUT</h2>
         <p class="works__item-descrip">
           Select location, day to check in,
           check out and number guests</p>
       </div>
       <div class="works__box-item">
-        <div class="works__image">Image</div>
+        <div class="works__image">
+          <img src="images/ubiaction-300px.png" alt="">
+        </div>
         <h2 class="works__item-title">FIND ALL <br> HOTELS NEAR YOU</h2>
         <p class="works__item-descrip">
           Scholar will help you find all hotel near your are</p>
       </div>
       <div class="works__box-item">
-        <div class="works__image">Image</div>
+        <div class="works__image">
+          <img src="images/maleta-300px.png" alt="">
+        </div>
         <h2 class="works__item-title">PICK A HOTEL <br> AND ENJOY YOUR TRIP</h2>
         <p class="works__item-descrip">
           Pick a hotel that you want and enjoy your trip</p>
@@ -110,10 +117,31 @@
         </p>
       </div>
       <div class="hotels__hotel-item">
+        <div class="hotels__hotel-image">Hotel Imagen</div>
+        <!-- <img class="hotels__hotel-image" src="images/nuevo.jpg"> -->
+        <p class="hotels__hotel-stars">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+        </p>
+        <p class="hotels__hotel-reviews">- 322 reviews</p>
+        <h2 class="hotels__hotel-name">THE PARADISE BEACH HOTEL</h2>
+        <p class="hotels__hotel-location">123 Mountain St, New York</p>
+        <p class="hotels__hotel-price"><strong>$152.50</strong></p>
+      </div>
+      <div class="hotels__hotel-item">
         <div class="hotels__hotel-image">Hotel Image</div>
         <!-- <img class="hotels__hotel-image" src="images/nuevo.jpg"> -->
-        <p class="hotels__hotel-stars"></p>
-        <p class="hotels__hotel-reviews"> - 322 reviews</p>
+        <p class="hotels__hotel-stars">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+        </p>
+        <p class="hotels__hotel-reviews">- 322 reviews</p>
         <h2 class="hotels__hotel-name">AMELANO FRIENDLY HOTEL</h2>
         <p class="hotels__hotel-location">Minalo, Italia</p>
         <p class="hotels__hotel-price"><strong>$68.75</strong></p>
@@ -121,39 +149,53 @@
       <div class="hotels__hotel-item">
         <div class="hotels__hotel-image">Hotel Image</div>
         <!-- <img class="hotels__hotel-image" src="images/nuevo.jpg"> -->
-        <p class="hotels__hotel-stars"></p>
-        <p class="hotels__hotel-reviews"> - 322 reviews</p>
-        <h2 class="hotels__hotel-name">AMELANO FRIENDLY HOTEL</h2>
-        <p class="hotels__hotel-location">Minalo, Italia</p>
-        <p class="hotels__hotel-price"><strong>$68.75</strong></p>
+        <p class="hotels__hotel-stars">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+        </p>
+        <p class="hotels__hotel-reviews">- 322 reviews</p>
+        <h2 class="hotels__hotel-name">HAPPY COLOUR HOTEL</h2>
+        <p class="hotels__hotel-location">Berlin, Germany</p>
+        <p class="hotels__hotel-price"><strong>$52.43</strong></p>
       </div>
       <div class="hotels__hotel-item">
-        <div class="hotels__hotel-image">Hotel Image</div>
-        <!-- <img class="hotels__hotel-image" src="images/nuevo.jpg"> -->
-        <p class="hotels__hotel-stars"></p>
-        <p class="hotels__hotel-reviews"> - 322 reviews</p>
-        <h2 class="hotels__hotel-name">AMELANO FRIENDLY HOTEL</h2>
-        <p class="hotels__hotel-location">Minalo, Italia</p>
-        <p class="hotels__hotel-price"><strong>$68.75</strong></p>
+        <img class="hotels__hotel-image" src="images/image-hero.jpg">
+        <p class="hotels__hotel-stars">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+        </p>
+        <p class="hotels__hotel-reviews">- 322 reviews</p>
+        <h2 class="hotels__hotel-name">SATORINI LUXURY HOTEL</h2>
+        <p class="hotels__hotel-location">Berlin, Germany</p>
+        <p class="hotels__hotel-price"><strong>$72.60</strong></p>
+        <div class="hotels__contnr-delay">
+          <img src="images/icons/arrow-right-300px.svg" alt="" class="hotels__icon-arrow-left">
+        </div>
       </div>
       <div class="hotels__hotel-item">
-        <div class="hotels__hotel-image">Hotel Image</div>
-        <!-- <img class="hotels__hotel-image" src="images/nuevo.jpg"> -->
-        <p class="hotels__hotel-stars"></p>
-        <p class="hotels__hotel-reviews"> - 322 reviews</p>
-        <h2 class="hotels__hotel-name">AMELANO FRIENDLY HOTEL</h2>
-        <p class="hotels__hotel-location">Minalo, Italia</p>
-        <p class="hotels__hotel-price"><strong>$68.75</strong></p>
+        <img class="hotels__hotel-image" src="images/image-hero.jpg">
+        <p class="hotels__hotel-stars">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+          <img src="images/icons/estrella-300px.svg" alt="" class="hotels__icon-star">
+        </p>
+        <p class="hotels__hotel-reviews">- 263 reviews</p>
+        <h2 class="hotels__hotel-name">CINNAMON HOTEL</h2>
+        <p class="hotels__hotel-location">29 Orchard, New York</p>
+        <p class="hotels__hotel-price"><strong>$78.43</strong></p>
+        <div class="hotels__contnr-delay">
+          <img src="images/icons/arrow-left-300px.svg" alt="" class="hotels__icon-arrow-left">
+        </div>
       </div>
-      <div class="hotels__hotel-item">
-        <div class="hotels__hotel-image">Hotel Image</div>
-        <!-- <img class="hotels__hotel-image" src="images/nuevo.jpg"> -->
-        <p class="hotels__hotel-stars"></p>
-        <p class="hotels__hotel-reviews"> - 322 reviews</p>
-        <h2 class="hotels__hotel-name">AMELANO FRIENDLY HOTEL</h2>
-        <p class="hotels__hotel-location">Minalo, Italia</p>
-        <p class="hotels__hotel-price"><strong>$68.75</strong></p>
-      </div>
+
       <button type="submit" class="hotels__button-view_all button-base">VIEW ALL HOTELS</button>
     </div>
   </div>
@@ -216,20 +258,20 @@
 
   <div class="footer">
     <div class="footer__contnr-into">
-      <div class="footer__logo-web"></div>
+      <img src="images/logo-web-600px.svg" alt="" class="footer__logo-web">
       <p class="footer__copyright">SCHOLAR HOTEL <br> ALL RIGHS RESERVED 2020</p>
       <ul class="footer__more-info">
-        <li class="footer__more-info-item">SITE MAP</li>
-        <li class="footer__more-info-item">TERM & CONDITIONS</li>
-        <li class="footer__more-info-item">PRIVACY POLICY</li>
-        <li class="footer__more-info-item">HELP</li>
-        <li class="footer__more-info-item">AFILIATE</li>
+        <li class="footer__more-info-item"><a href="#" class="footer__item-link">SITE MAP</a></li>
+        <li class="footer__more-info-item"><a href="#" class="footer__item-link">TERM & CONDITIONS</a></li>
+        <li class="footer__more-info-item"><a href="#" class="footer__item-link">PRIVACY POLICY</a></li>
+        <li class="footer__more-info-item"><a href="#" class="footer__item-link">HELP</a></li>
+        <li class="footer__more-info-item"><a href="#" class="footer__item-link">AFILIATE</a></li>
       </ul>
       <ul class="footer__menu">
-        <li class="footer__menu-item">OUR LOCATION</li>
-        <li class="footer__menu-item">CAREER</li>
-        <li class="footer__menu-item">ABOUT</li>
-        <li class="footer__menu-item">CONTACT</li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">OUR LOCATION</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">CAREER</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">ABOUT</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">CONTACT</a></li>
       </ul>
       <div class="footer__icons-social"></div>
     </div>

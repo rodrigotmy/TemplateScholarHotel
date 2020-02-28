@@ -182,14 +182,13 @@
 .hero {
   max-width: 100%;
   height: 550px;
-  border: 1px solid purple;
   background-image: url("../images/image-hero.jpg");
   background-size: cover;
   background-position: bottom; }
   .hero__header {
-    width: 1200px;
+    max-width: 1200px;
     height: auto;
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -203,10 +202,7 @@
     -ms-flex-align: center;
     align-items: center; }
     .hero__header-logo {
-      width: 120px;
-      height: 50px;
-      background-color: #FFF;
-      border-radius: 4px; }
+      height: 65px; }
     .hero__header-menu {
       list-style: none; }
       .hero__header-menu-item {
@@ -214,8 +210,10 @@
         margin-right: 24px;
         font-size: .8em;
         font-family: "Segoe UI", sans-serif;
-        font-weight: 600;
-        color: #FFF; }
+        font-weight: 600; }
+    .hero__header-link {
+      text-decoration: none;
+      color: #FFF; }
     .hero__header .active {
       color: #CD3333; }
   .hero__title-welcome {
@@ -230,7 +228,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 830px;
+    max-width: 830px;
     height: auto;
     -webkit-box-shadow: 0 4px 6px lightgray;
     box-shadow: 0 4px 6px lightgray; }
@@ -286,6 +284,10 @@
     -ms-flex-direction: column;
     flex-direction: column;
     font-family: "Segoe UI", sans-serif; }
+  .works__section-title, .hotels__section-title, .tips__section-title, .newsletter__section-title {
+    color: #000; }
+  .works__section-descrip, .hotels__section-descrip, .tips__section-descrip, .newsletter__section-descrip {
+    color: #707070; }
   .works__box-item {
     width: 100%;
     height: 300px;
@@ -295,9 +297,8 @@
     border-radius: 4px;
     background-color: #FFF; }
   .works__image {
-    width: 120px;
+    width: 110px;
     height: 110px;
-    border: 1px solid green;
     border-radius: 3px;
     margin-bottom: 20px;
     margin-left: auto;
@@ -311,6 +312,11 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+    .works__image img {
+      width: 110%;
+      height: 110%;
+      -o-object-fit: cover;
+      object-fit: cover; }
   .works__item-title {
     text-align: center;
     font-size: 1em;
@@ -372,11 +378,28 @@
     width: 100%;
     height: auto;
     font-family: "Segoe UI", sans-serif;
-    padding-bottom: 25px; }
+    padding-bottom: 25px;
+    position: relative; }
+  .hotels__contnr-delay {
+    display: none; }
+  .hotels__hotel-item .hotels__contnr-delay {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 40%;
+    padding-top: 40%;
+    cursor: pointer; }
+  .hotels__icon-arrow-left {
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto; }
   .hotels__hotel-image {
     background-color: lightgray;
     color: #FFF;
-    cursor: pointer;
     width: 100%;
     height: 225px;
     display: -webkit-box;
@@ -395,13 +418,15 @@
     -o-object-position: center;
     object-position: center; }
   .hotels__hotel-stars {
-    background-color: yellow;
-    border-radius: 10px;
-    width: 65px;
-    height: 20px;
     float: left;
-    margin-left: 20%;
-    margin-right: 6px; }
+    margin-left: 12%;
+    margin-right: 6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .hotels__icon-star {
+    width: 20px;
+    margin-right: 2px; }
   .hotels__hotel-reviews {
     display: inline-block;
     font-size: .8em;
@@ -429,7 +454,7 @@
 
 .line {
   width: 840px;
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 2px solid #F1F1F1;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px; }
@@ -504,10 +529,6 @@
     align-items: center; }
   .newsletter__name-section {
     font-family: "Segoe UI", sans-serif; }
-  .newsletter__section-title {
-    text-align: left; }
-  .newsletter__section-descrip {
-    text-align: left; }
   .newsletter__form-noti {
     width: 550px;
     height: 45px;
@@ -533,9 +554,7 @@
     padding-top: 50px;
     padding-bottom: 50px; }
   .footer__logo-web {
-    width: 110px;
-    height: 45px;
-    background-color: lightgray;
+    height: 65px;
     margin-left: auto;
     margin-right: auto; }
   .footer__copyright {
@@ -548,7 +567,6 @@
   .footer__more-info, .footer__menu {
     font-size: .8em;
     list-style: none;
-    color: #707070;
     margin-left: auto;
     margin-right: auto; }
     .footer__more-info-item, .footer__menu-item {
@@ -557,6 +575,11 @@
   .footer__icons-social {
     width: 125px;
     height: 25px;
-    background-color: lightgray;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    background-color: lightgray; }
+  .footer__item-link, .footer__menu-link {
+    text-decoration: none;
+    color: #707070; }
+    .footer__item-link:hover, .footer__menu-link:hover {
+      text-decoration: underline; }

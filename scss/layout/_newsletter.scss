@@ -18,11 +18,12 @@
   &__name-section {
     font-family: $font1;
   }
+  
   &__section-title {
-    text-align: left;
+    @extend .works__section-title;
   }
   &__section-descrip {
-    text-align: left;
+    @extend .works__section-descrip;
   }
 
   &__form-noti {

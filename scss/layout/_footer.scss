@@ -4,20 +4,15 @@
   @include max-width-page;
   
   &__contnr-into {
-    // @include max-width-page;
     width: 100%;
     height: inherit;
     font-family: $font1;
-    // border: 1px solid grey;
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
   &__logo-web {
-    width: 110px;
-    height: 45px;
-    background-color: lightgray;
-    // margin-left: 50px;
+    height: 65px;
     @include contnr-center;
   }
   &__copyright {
@@ -26,13 +21,11 @@
     color: $color-grey;
     font-weight: 600;
     @include contnr-center;
-
   }
 
   &__more-info {
     font-size: .8em;
     list-style: none;
-    color: $color-grey;
     @include contnr-center;
 
     &-item {
@@ -52,8 +45,19 @@
   &__icons-social {
     width: 125px;
     height: 25px;
-    background-color: lightgray;
     @include contnr-center;
+    background-color: lightgray;
+  }
+  
+  &__item-link {
+    text-decoration: none;
+    color: $color-grey;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__menu-link {
+    @extend .footer__item-link;
   }
 
 
