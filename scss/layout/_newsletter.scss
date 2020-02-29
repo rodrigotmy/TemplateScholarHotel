@@ -5,14 +5,12 @@
   margin-bottom: 50px;
 
   &__contnr-into {
-    @include contnr-center;
     max-width: 960px;
     width: 100%;
     height: inherit;
     background-color: $color-primario;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include contnr-center;
+    @include contnt-sbtw-center;
   }
 
   &__name-section {

@@ -18,6 +18,12 @@
   margin-right: auto;
 }
 
+@mixin contnt-sbtw-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @mixin button-icon {
   background-repeat: no-repeat;
   background-position: center;

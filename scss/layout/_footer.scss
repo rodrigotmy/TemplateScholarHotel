@@ -1,5 +1,4 @@
 .footer {
-  // border: 1px solid grey;
   height: 220px;
   @include max-width-page;
   
@@ -43,10 +42,19 @@
   }
 
   &__icons-social {
-    width: 125px;
-    height: 25px;
+    width: auto;
     @include contnr-center;
-    background-color: lightgray;
+  }
+
+  &__link-icon {
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+  }
+
+  &__icon-sm {
+    width: 24px;
   }
   
   &__item-link {
@@ -59,6 +67,5 @@
   &__menu-link {
     @extend .footer__item-link;
   }
-
 
 }

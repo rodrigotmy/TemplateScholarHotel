@@ -182,8 +182,9 @@
 .hero {
   max-width: 100%;
   height: 550px;
-  background-image: url("../images/image-hero.jpg");
-  background-size: cover;
+  background-image: url("../images/hotels/hero-main.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: bottom; }
   .hero__header {
     max-width: 1200px;
@@ -214,8 +215,6 @@
     .hero__header-link {
       text-decoration: none;
       color: #FFF; }
-    .hero__header .active {
-      color: #CD3333; }
   .hero__title-welcome {
     font-family: "Segoe UI", sans-serif;
     text-align: center;
@@ -402,6 +401,8 @@
     color: #FFF;
     width: 100%;
     height: 225px;
+    margin-bottom: 30px;
+    border-radius: 2px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -411,8 +412,6 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 30px;
-    border-radius: 2px;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: center;
@@ -454,7 +453,7 @@
 
 .line {
   width: 840px;
-  border-bottom: 2px solid #F1F1F1;
+  border-bottom: 1px solid #707070;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px; }
@@ -512,12 +511,12 @@
   background-color: #F1F1F1;
   margin-bottom: 50px; }
   .newsletter__contnr-into {
-    margin-left: auto;
-    margin-right: auto;
     max-width: 960px;
     width: 100%;
     height: inherit;
     background-color: #F1F1F1;
+    margin-left: auto;
+    margin-right: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -573,11 +572,16 @@
       margin-bottom: 6px;
       font-weight: 600; }
   .footer__icons-social {
-    width: 125px;
-    height: 25px;
+    width: auto;
     margin-left: auto;
-    margin-right: auto;
-    background-color: lightgray; }
+    margin-right: auto; }
+  .footer__link-icon {
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    display: inline-block; }
+  .footer__icon-sm {
+    width: 24px; }
   .footer__item-link, .footer__menu-link {
     text-decoration: none;
     color: #707070; }

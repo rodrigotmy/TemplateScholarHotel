@@ -29,7 +29,6 @@
   }
 
   &__box-item {
-    //agregar max-with
     width: 100%;
     height: 300px;
     padding-top: 35px;
@@ -42,12 +41,10 @@
   &__image {
     width: 110px;
     height: 110px;
-    // border: 1px solid green;
     border-radius: 3px;
     margin-bottom: 20px;
     @include contnr-center;
     @include content-center-fb;
-
     img {
       width: 110%;
       height: 110%;
@@ -71,7 +68,6 @@
   }
 
 
-  
   &__ranking {
     position: absolute;
     top: -60px;
@@ -101,7 +97,5 @@
       font-size: .8em;
     }
   }
-
-
 
 }
