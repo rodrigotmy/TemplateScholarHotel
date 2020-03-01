@@ -1,2 +1,2 @@
-# AcademicTemplate
-Template Academic (Home)
+# Template Scholar Hotel
+Scholar Hotel (Home)
