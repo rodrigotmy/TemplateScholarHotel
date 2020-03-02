@@ -1,0 +1,2 @@
+# TemplateScholarHotel
+Template Scholar Hotel
