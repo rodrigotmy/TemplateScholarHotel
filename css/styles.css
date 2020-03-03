@@ -8,9 +8,9 @@
   max-width: 400px;
   width: 100%;
   height: 45px;
-  padding-left: 20px;
-  font-size: 1em;
-  font-family: "Segoe UI", sans-serif;
+  padding-left: 16px;
+  font-size: .9em;
+  font-family: "Montserrat", sans-serif;
   border: none; }
 
 .button-base {
@@ -30,7 +30,9 @@
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  font-size: .85em;
+  font-family: "Montserrat", sans-serif; }
 
 .works__contnr-into {
   display: -ms-grid;
@@ -210,13 +212,13 @@
         display: inline-block;
         margin-right: 24px;
         font-size: .8em;
-        font-family: "Segoe UI", sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-weight: 600; }
     .hero__header-link {
       text-decoration: none;
       color: #FFF; }
   .hero__title-welcome {
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Anton", sans-serif;
     text-align: center;
     font-size: 1.5em;
     color: #FFF;
@@ -233,7 +235,8 @@
     box-shadow: 0 4px 6px lightgray; }
   .hero__input-select {
     font-size: .75em;
-    font-weight: 600;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
     color: #CD3333; }
     .hero__input-select option {
       color: #000; }
@@ -281,12 +284,15 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
-    font-family: "Segoe UI", sans-serif; }
+    flex-direction: column; }
   .works__section-title, .hotels__section-title, .tips__section-title, .newsletter__section-title {
-    color: #000; }
+    color: #000;
+    margin-bottom: 6px;
+    font-family: "Anton", sans-serif; }
   .works__section-descrip, .hotels__section-descrip, .tips__section-descrip, .newsletter__section-descrip {
-    color: #707070; }
+    color: #707070;
+    font-family: "Montserrat", sans-serif;
+    font-size: .9em; }
   .works__box-item {
     width: 100%;
     height: 300px;
@@ -319,13 +325,15 @@
   .works__item-title {
     text-align: center;
     font-size: 1em;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 10px;
-    color: #000; }
+    color: #000;
+    line-height: 1.5em; }
   .works__item-descrip {
+    line-height: 1.5em;
     text-align: center;
-    font-size: .85em;
-    font-family: "Segoe UI", sans-serif;
+    font-size: .84em;
+    font-family: "Montserrat", sans-serif;
     color: #707070; }
   .works__ranking {
     position: absolute;
@@ -356,14 +364,16 @@
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    font-family: "Segoe UI", sans-serif; }
+    align-items: center; }
     .works__ranking-item-name {
       color: #000;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      margin-bottom: 6px;
+      font-family: "Anton", sans-serif; }
     .works__ranking-item-descrip {
       color: #707070;
-      font-size: .8em; }
+      font-size: .8em;
+      font-family: "Montserrat", sans-serif; }
 
 .hotels {
   max-width: 100%;
@@ -376,7 +386,7 @@
   .hotels__hotel-item {
     width: 100%;
     height: auto;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding-bottom: 25px;
     position: relative; }
   .hotels__contnr-delay {
@@ -466,7 +476,6 @@
     margin-right: auto;
     width: 960px;
     height: inherit;
-    font-family: "Segoe UI", sans-serif;
     padding-top: 50px;
     padding-bottom: 50px; }
   .tips__item {
@@ -489,19 +498,27 @@
     .tips__date h1 {
       font-size: 4em;
       line-height: .85em;
-      color: #CD3333; }
+      color: #CD3333;
+      font-family: "Anton", sans-serif; }
     .tips__date p {
       font-size: 1em;
-      margin-top: 16px; }
+      margin-top: 16px;
+      font-family: "Montserrat", sans-serif; }
   .tips__item-title {
     font-size: 1em;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif; }
   .tips__item-details {
     font-size: .8em;
     margin-bottom: 16px;
-    font-style: italic; }
+    font-style: italic;
+    color: #707070;
+    font-family: "Montserrat", sans-serif; }
   .tips__item-descrip {
-    font-size: .9em; }
+    font-size: 1em;
+    font-family: "Anton", sans-serif;
+    line-height: 1.5em;
+    color: #707070; }
   .tips .clear-float {
     clear: both; }
 
@@ -526,8 +543,6 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-  .newsletter__name-section {
-    font-family: "Segoe UI", sans-serif; }
   .newsletter__form-noti {
     width: 550px;
     height: 45px;
@@ -537,11 +552,10 @@
   .newsletter__box-email {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    font-family: "Segoe UI", sans-serif; }
+    font-family: "Montserrat", sans-serif; }
   .newsletter__bttn-subscribe {
     border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    font-family: "Segoe UI", sans-serif; }
+    border-bottom-left-radius: 0; }
 
 .footer {
   height: 220px;
@@ -549,7 +563,7 @@
   .footer__contnr-into {
     width: 100%;
     height: inherit;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding-top: 50px;
     padding-bottom: 50px; }
   .footer__logo-web {
@@ -560,7 +574,7 @@
     font-size: .75em;
     line-height: 1.5em;
     color: #707070;
-    font-weight: 600;
+    font-weight: 500;
     margin-left: auto;
     margin-right: auto; }
   .footer__more-info, .footer__menu {
@@ -570,7 +584,7 @@
     margin-right: auto; }
     .footer__more-info-item, .footer__menu-item {
       margin-bottom: 6px;
-      font-weight: 600; }
+      font-weight: 400; }
   .footer__icons-social {
     width: auto;
     margin-left: auto;

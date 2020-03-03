@@ -17,15 +17,18 @@
   &__name-section {
     @include content-center-fb;
     flex-direction: column;
-    font-family: $font1;
   }
 
   &__section-title {
     color: $color-black;
+    margin-bottom: 6px;
+    font-family: $font2;
   }
 
   &__section-descrip {
     color: $color-grey;
+    font-family: $font1;
+    font-size: .9em;
   }
 
   &__box-item {
@@ -58,11 +61,13 @@
     font-family: $font1;
     margin-bottom: 10px;
     color: $color-black;
+    line-height: 1.5em;
   }
-
+  
   &__item-descrip {
+    line-height: 1.5em;
     text-align: center;
-    font-size: .85em;
+    font-size: .84em;
     font-family: $font1;
     color: $color-grey;
   }
@@ -86,15 +91,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: $font1;
     
     &-name {
       color: $color-black;
       font-size: 1.5em;
+      margin-bottom: 6px;
+      font-family: $font2;
     }
     &-descrip {
       color: $color-grey;
       font-size: .8em;
+      font-family: $font1;
     }
   }
 

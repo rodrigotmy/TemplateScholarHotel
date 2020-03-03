@@ -6,7 +6,6 @@
     @include contnr-center;
     width: 960px;
     height: inherit;
-    font-family: $font1;
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -38,25 +37,34 @@
       font-size: 4em;
       line-height: .85em;
       color: $color-secundario;
+      font-family: $font2;
     }
     p {
       font-size: 1em;
       margin-top: 16px;
+      font-family: $font1;
     }
   }
 
   &__item-title {
     font-size: 1em;
     margin-bottom: 10px;
+    font-family: $font1;
   }
   &__item-details {
     font-size: .8em;
     margin-bottom: 16px;
     font-style: italic;
-  }
+    color: $color-grey;
+    font-family: $font1;
 
+  }
+  
   &__item-descrip {
-    font-size: .9em;;
+    font-size: 1em;
+    font-family: $font2;
+    line-height: 1.5em;
+    color: $color-grey;
   }
 
   .clear-float {

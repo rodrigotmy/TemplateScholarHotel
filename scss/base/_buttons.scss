@@ -8,4 +8,6 @@
   color: $color-white;
   cursor: pointer;
   @include content-center-fb;
+  font-size: .85em;
+  font-family: $font1;
 }
