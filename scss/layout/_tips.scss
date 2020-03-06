@@ -37,7 +37,7 @@
       font-size: 4em;
       line-height: .85em;
       color: $color-secundario;
-      font-family: $font2;
+      font-family: $font1;
     }
     p {
       font-size: 1em;
@@ -61,8 +61,8 @@
   }
   
   &__item-descrip {
-    font-size: 1em;
-    font-family: $font2;
+    font-size: .90em;
+    font-family: $font1;
     line-height: 1.5em;
     color: $color-grey;
   }

@@ -37,7 +37,7 @@
   }
 
   &__title-welcome {
-    font-family: $font2;
+    font-family: $font1;
     text-align: center;
     font-size: 1.5em;
     color: $color-white;
@@ -56,6 +56,7 @@
     font-weight: 500;
     font-family: $font1;
     color: $color-secundario;
+    border: none;
     option {
       color: #000;
     }

@@ -218,7 +218,7 @@
       text-decoration: none;
       color: #FFF; }
   .hero__title-welcome {
-    font-family: "Anton", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     font-size: 1.5em;
     color: #FFF;
@@ -237,7 +237,8 @@
     font-size: .75em;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
-    color: #CD3333; }
+    color: #CD3333;
+    border: none; }
     .hero__input-select option {
       color: #000; }
   .hero .active {
@@ -288,7 +289,7 @@
   .works__section-title, .hotels__section-title, .tips__section-title, .newsletter__section-title {
     color: #000;
     margin-bottom: 6px;
-    font-family: "Anton", sans-serif; }
+    font-family: "Montserrat", sans-serif; }
   .works__section-descrip, .hotels__section-descrip, .tips__section-descrip, .newsletter__section-descrip {
     color: #707070;
     font-family: "Montserrat", sans-serif;
@@ -369,7 +370,7 @@
       color: #000;
       font-size: 1.5em;
       margin-bottom: 6px;
-      font-family: "Anton", sans-serif; }
+      font-family: "Montserrat", sans-serif; }
     .works__ranking-item-descrip {
       color: #707070;
       font-size: .8em;
@@ -499,7 +500,7 @@
       font-size: 4em;
       line-height: .85em;
       color: #CD3333;
-      font-family: "Anton", sans-serif; }
+      font-family: "Montserrat", sans-serif; }
     .tips__date p {
       font-size: 1em;
       margin-top: 16px;
@@ -515,8 +516,8 @@
     color: #707070;
     font-family: "Montserrat", sans-serif; }
   .tips__item-descrip {
-    font-size: 1em;
-    font-family: "Anton", sans-serif;
+    font-size: .90em;
+    font-family: "Montserrat", sans-serif;
     line-height: 1.5em;
     color: #707070; }
   .tips .clear-float {
